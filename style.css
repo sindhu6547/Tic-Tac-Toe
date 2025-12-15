@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: 45px;
+}
+
+.create {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:
+        /*linear-gradient(#4fa9ff, #00b4ff);*/
+        cornflowerblue;
+}
+
+.create-form {
+    width: 400px;
+    height: 550px;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.create-form h1 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.inputs {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+input.error {
+    border-color: red;
+}
+
+.inputs input {
+    margin-bottom: 30px;
+    height: 42px;
+    width: 300px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    transition: transform 0.2s ease;
+    padding-left: 10px;
+}
+
+
+.inputs input:focus {
+    border: 2px solid #1e3a8a;
+    outline: none;
+    transform: scale(1.05);
+}
+
+.inputs button {
+    width: 300px;
+    height: 38px;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: rgb(32, 74, 151);
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.inputs p {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.inputs p span {
+    font-size: 20px;
+    color: #1e3a8a;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.inputs p span:hover {
+    text-decoration: underline;
+}
+
+.login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    height: 400px;
+    width: 380px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.login-form h1 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.input-type {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.input-type input {
+    margin-bottom: 30px;
+    height: 42px;
+    width: 300px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    transition: transform 0.2s ease;
+    padding-left: 10px;
+}
+
+.input-type input:focus {
+    border: 2px solid #1e3a8a;
+    outline: none;
+    transform: scale(1.05);
+}
+
+.input-type button {
+    width: 300px;
+    height: 38px;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: rgb(32, 74, 151);
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.input-type p {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.input-type span {
+    font-size: 20px;
+    color: #1e3a8a;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.input-type span:hover {
+    text-decoration: underline;
+}
+
+
+#msg {
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.msg-container {
+    display: none;
+}
+
+.turn-container {
+    margin-top: 20px;
+    font-size: 20px;
+    color: cornsilk;
+}
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    margin-bottom: 30px;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 9px;
+    border: none;
+    font-size: 8vmin;
+    color: crimson;
+    background-color: mediumspringgreen;
+}
+
+
+#reset-btn {
+    padding: 16px;
+    font-size: 18px;
+    background-color: coral;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+#new-btn {
+    padding: 16px;
+    font-size: 18px;
+    background-color: coral;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
